@@ -1,0 +1,69 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+div#DataTables_Table_0_length{
+	position: fixed;
+}
+
+div#DataTables_Table_1_length{
+	position: fixed;
+}
+
+.dataTables_wrapper .col-sm-12{
+	overflow-y: auto;
+	padding-left: 0;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after{
+	position: relative!important;
+    right: -30px!important;
+    display: inline!important;
+}
+
+table.dataTable thead .p-um:after{
+    position: absolute!important;
+    bottom: 8px!important;
+    right: 8px!important;
+}
+
+.seta-direita{
+	width: 250px;
+    height: 250px;
+    background-color: rgba(169, 167, 167, 0.33);
+    border-radius: 800px;
+    position: fixed;
+    content: "";
+    margin-top: 250px;
+    margin-left: 1790px;
+    z-index: 999;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 40px;
+    opacity: 0.50;
+}
+
+.seta-esquerda{
+	width: 250px;
+    height: 250px;
+    background-color: rgba(169, 167, 167, 0.33);
+    border-radius: 800px;
+    position: fixed;
+    content: "";
+    margin-top: 230px;
+    margin-left: 265px;
+    z-index: 1;
+    background-image: url(seta2.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 130px;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}

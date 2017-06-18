@@ -1,0 +1,58 @@
+.grid_ident {
+	width: 30px;
+}
+
+.table .active {
+	font-weight: 600;
+}
+
+.list_tipo {
+	width: 100px;
+}
+
+.header {
+    background-color: #df0c1f;
+    border: 1px solid #aaa;
+    height: 80px;
+    width: 100%;
+    z-index: 9;
+	text-align: center;
+	padding-top: 13px;
+}
+
+.navbar {
+    border-color: #ccc;
+	margin-bottom: 2px;
+}
+
+.content {
+	margin-top: 10px;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.crudBar{
+	padding-bottom: 8px;
+}
+
+.content {
+	margin: 10px;
+}
+
+.btn {
+	background-image: none !important;
+}
+
+.dt-bootstrap{
+	margin-right: 6px;
+}
+
+.selected {
+    background-color: burlywood !important;
+}
+
+.tab-pane {
+	padding-top: 10px;
+}

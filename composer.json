@@ -1,0 +1,20 @@
+{
+  "name": "sylabs/syph-app",
+  "description": "SyphApplication",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Sylabs",
+      "email": "syph-fw@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.17",
+    "sylabs/syph-framework": "dev-master"
+  },
+  "autoload": {
+    "psr-4": { "": "src/" },
+    "classmap": [ "app/AppKernel.php" ]
+  }
+}

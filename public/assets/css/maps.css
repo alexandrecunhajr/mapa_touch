@@ -1,0 +1,74 @@
+ 
+div.block {
+    height: 100px;
+    background:lightyellow;
+}
+
+#mapTd{
+    width: 600px;
+}
+
+.mapButtonsSvg {
+    z-index: 100px;
+    top: 10px;
+    left: 360px;
+    width: 600px;
+    position: absolute;
+    /*border: solid 1px gray;*/
+}
+
+table.tp_title {
+    background-color: blue;
+}
+
+.headerTooltip {
+    position: absolute;
+    z-index: 200;
+    visibility: hidden;
+    top: "20px";
+    left: "30px";
+    width: "170px";
+    height: "230px";
+    opacity: 1;
+    color: #ab0110;
+    font-family: "Verdana, Arial, Helvetica, sans-serif";
+    background: #ffffff;
+    border: solid 1px gray;
+    text-align: center;
+}
+
+.bodyTooltip {
+    position: absolute;
+    z-index: 200;
+    visibility: hidden;
+    top: "50px";
+    left: "30px";
+    width: "170px";
+    height: "230px";
+    opacity: 1;
+    color: #ab0110;
+    font-family: "Verdana, Arial, Helvetica, sans-serif";
+    background: #ffffff;
+    border: solid 1px gray;
+    text-align: center;
+}
+
+.title {
+   font-family: Verdana, sans-serif;
+   color: #00000;   /* black */
+   font-weight: bold;
+   font-variant: small-caps;
+   font-stretch: wider;
+   font-size: 11px;
+   padding: 0.2em
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px;
+    font: 13px sans-serif;
+    border: solid 1px #aaa;
+    pointer-events: none;
+}
+   

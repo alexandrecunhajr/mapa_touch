@@ -1,0 +1,50 @@
+/*helpers*/
+
+/*colors*/
+.background-lasa{
+    background-color: #df0c1f;
+}
+.background-defaut{
+    background-color: #eeeeee;
+}
+/*end colors*/
+
+/*colors text*/
+.text-blue{
+    color:#3875d7;
+}
+.text-red{
+    color:#df0c1f;
+}
+/*end colors text*/
+
+/*margin*/
+/*TOP*/
+.mt-10{
+    margin-top: 10px !important;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+.mt-40{
+    margin-top: 40px !important;
+}
+/*BOTTOM*/
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.mb-30{
+    margin-bottom: 30px !important;
+}
+
+/*end margin*/
+
+/*Padding*/
+.pd-10 {padding: 10px !important;}
+/*Paddings*/
